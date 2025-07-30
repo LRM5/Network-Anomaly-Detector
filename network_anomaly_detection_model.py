@@ -154,7 +154,7 @@ print(classification_report(test_y, test_multi_predictions, target_names=class_l
 import joblib
 
 # Save the trained model to a file
-model_filename = 'network_anomaly_detection_model.joblib'
+model_filename = 'network_anomaly_detection_model.py'
 joblib.dump(rf_model_multi, model_filename)
 
 print(f"Model saved to {model_filename}")
